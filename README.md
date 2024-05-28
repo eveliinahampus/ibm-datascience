@@ -1,6 +1,6 @@
 # IBM-DataScience
 
-##Project background
+## Project background
 Project background was to explore SpaceX data of rocket launches. From the data I was to clean, process, and predict best parameters which will affect success rate of the launches.
 Question here was which parameters would clearly affect on success of the launch. In many processes the parameters examined were related the Flight Number, Launch Site, Payload Mass or Orbit type targeted.
 Lastly it was to predict with different machine learning models how the landing would end up, and find best performing model.
