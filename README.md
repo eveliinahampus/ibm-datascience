@@ -6,7 +6,8 @@ The project's objective was to explore SpaceX rocket launch data. From this data
 
 ## Project structure
 
-```IBM-DataScience-Project/
+```
+IBM-DataScience-Project/
 ├── README.md                                                    # Main project overview
 ├── SpaceX_Machine_Learning_Prediction_Part_5_jupyterlite.ipynb  # Machine learning predictions
 ├── ds-capstone-eveliinahampus.pdf                               # Capstone project report 
@@ -30,7 +31,7 @@ An external CSV file was also used, transferred into a database, and further pro
 In the final stage, machine learning techniques were used to predict the outcomes of launches. Models such as Decision Trees, K-Nearest Neighbours, and Support Vector Machines were applied to identify the best-performing method for predicting landing outcomes.
 
 ---
-```
+
 ### Data Collection  
 The data was collected using Python libraries such as `requests`, `NumPy`, `Pandas`, and `datetime`.  
 - Data was fetched via **API requests**, with results returned in JSON format.  
@@ -62,7 +63,7 @@ To predict outcomes, various machine learning techniques were applied, including
 - **Support Vector Machines (SVM)**  
 
 The models were evaluated to determine the best-performing approach for predicting landing outcomes.
-```
+
 ---
 
 
