@@ -4,6 +4,21 @@
 
 The project's objective was to explore SpaceX rocket launch data. From this data, I was tasked with cleaning, processing, and predicting the key parameters that influence the success rate of launches. The main question was which parameters clearly affect the success of a launch. Several factors were examined, such as flight number, launch site, payload mass, and the type of orbit targeted. Lastly, the focus was on predicting landing outcomes using different machine learning models to identify the best-performing model.
 
+## Project structure
+
+```IBM-DataScience-Project/
+├── README.md                                                    # Main project overview
+├── SpaceX_Machine_Learning_Prediction_Part_5_jupyterlite.ipynb  # Machine learning predictions
+├── ds-capstone-eveliinahampus.pdf                               # Capstone project report 
+├── jupyter_labs_eda_dataviz.ipynb                               # Exploratory data analysis and visualisations
+├── jupyter_labs_eda_sql_coursera_sqllite.ipynb                  # SQL-based analysis
+├── jupyter_labs_spacex_data_collection_api.ipynb                # Data collection via API
+├── jupyter_labs_webscraping.ipynb                               # Web scraping processes
+├── lab_jupyter_launch_site_location.ipynb                       # Location-based analysis
+├── labs_jupyter_spacex_Data_wrangling.ipynb                     # Data wrangling
+└── spacex_dash_app.py                                           # Dash app script
+```
+
 ---
 
 ## Methodology
@@ -19,16 +34,17 @@ In the final stage, machine learning techniques were used to predict the outcome
 ### Data Collection  
 The data was collected using Python libraries such as `requests`, `NumPy`, `Pandas`, and `datetime`.  
 - Data was fetched via **API requests**, with results returned in JSON format.  
-- Key parameters like the rocket booster name, payload mass, orbit type, launch pad location, outcome, landing type, and flight numbers were filtered and stored for analysis.
+- Key parameters like the rocket booster name, payload mass, orbit type, launch pad location, outcome, landing type, and flight numbers
+were filtered and stored for analysis.
 
-Additionally:  
 - Web scraping was employed to gather data from the **Wikipedia page for Falcon 9 and Falcon Heavy launches**. Using Python, this involved:
   - Performing `GET` requests.
   - Creating BeautifulSoup objects to parse HTML.
   - Extracting table headers and constructing dictionaries.
   - Filling the data into a structured DataFrame.
 
-An **external CSV file** was also used. This data was imported into a database, where **SQL queries** (with `SQLAlchemy`) and Python were utilised for further processing.
+An **external CSV file** was also used. This data was imported into a database, where **SQL queries** (with `SQLAlchemy`)
+and Python were utilised for further processing.
 
 ### Data Wrangling  
 - Filtering data and replacing `NaN` values using the mean method.  
@@ -48,7 +64,6 @@ To predict outcomes, various machine learning techniques were applied, including
 The models were evaluated to determine the best-performing approach for predicting landing outcomes.
 ```
 ---
-
 
 
 
