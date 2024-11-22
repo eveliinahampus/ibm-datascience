@@ -4,12 +4,14 @@
 
 The project's objective was to explore SpaceX rocket launch data. From this data, I was tasked with cleaning, processing, and predicting the key parameters that influence the success rate of launches. The main question was which parameters clearly affect the success of a launch. Several factors were examined, such as flight number, launch site, payload mass, and the type of orbit targeted. Lastly, the focus was on predicting landing outcomes using different machine learning models to identify the best-performing model.
 
+Related projects:
+
+- [IBM SpaceX dash app](https://github.com/eveliinahampus/ibm-spacex-dash)
+
 ## Project structure
 
 ```
 IBM-DataScience-Project/
-├── README.md                                                    # Main project overview
-├── SpaceX_Machine_Learning_Prediction_Part_5_jupyterlite.ipynb  # Machine learning predictions
 ├── ds-capstone-eveliinahampus.pdf                               # Capstone project report 
 ├── jupyter_labs_eda_dataviz.ipynb                               # Exploratory data analysis and visualisations
 ├── jupyter_labs_eda_sql_coursera_sqllite.ipynb                  # SQL-based analysis
@@ -17,7 +19,8 @@ IBM-DataScience-Project/
 ├── jupyter_labs_webscraping.ipynb                               # Web scraping processes
 ├── lab_jupyter_launch_site_location.ipynb                       # Location-based analysis
 ├── labs_jupyter_spacex_Data_wrangling.ipynb                     # Data wrangling
-└── spacex_dash_app.py                                           # Dash app script
+├── README.md                                                    # Main project overview
+└── SpaceX_Machine_Learning_Prediction_Part_5_jupyterlite.ipynb  # Machine learning predictions
 ```
 
 ---
