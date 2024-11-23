@@ -4,9 +4,10 @@
 
 The project's objective was to explore SpaceX rocket launch data. From this data, I was tasked with cleaning, processing, and predicting the key parameters that influence the success rate of launches. The main question was which parameters clearly affect the success of a launch. Several factors were examined, such as flight number, launch site, payload mass, and the type of orbit targeted. Lastly, the focus was on predicting landing outcomes using different machine learning models to identify the best-performing model.
 
-Related projects:
-
-- [IBM SpaceX dash app](https://github.com/eveliinahampus/ibm-spacex-dash)
+Related Projects:
+- [IBM SpaceX Dash](https://github.com/eveliinahampus/ibm-spacex-dash)
+- [IBM Github Final Project](https://github.com/eveliinahampus/ibm-github-final-project)
+- [IBM Python Project StockData](https://github.com/eveliinahampus/ibm-stockdata)
 
 ## Project structure
 
